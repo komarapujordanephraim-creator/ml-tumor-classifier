@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "dataset": "Breast Cancer Wisconsin (Diagnostic), scikit-learn bundled",
+    "rows": 569,
+    "features": 30,
+    "train_rows": 426,
+    "test_rows": 143,
+    "seed": 42
+  },
+  "results": {
+    "Logistic Regression": {
+      "cv_roc_auc_mean": 0.9962,
+      "cv_roc_auc_std": 0.004,
+      "test_accuracy": 0.986,
+      "test_precision": 0.9889,
+      "test_recall": 0.9889,
+      "test_f1": 0.9889,
+      "test_roc_auc": 0.9977
+    },
+    "Random Forest": {
+      "cv_roc_auc_mean": 0.988,
+      "cv_roc_auc_std": 0.0107,
+      "test_accuracy": 0.958,
+      "test_precision": 0.9565,
+      "test_recall": 0.9778,
+      "test_f1": 0.967,
+      "test_roc_auc": 0.9949
+    }
+  }
+}
